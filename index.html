@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>CropTool</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <canvas id="imageLayer" height="0px">
+            浏览器不支持Canvas
+        </canvas>
+        <canvas id="drawLayer" height="0px">
+            浏览器不支持Canvas
+        </canvas>
+        <canvas id="gridLayer" height="0px">
+            浏览器不支持Canvas
+        </canvas>
+        <canvas id="magnifyLayer" height="0px">
+            浏览器不支持Canvas
+        </canvas>
+        <input type="file" name="imageFile" id="imageFile"/>
+        <form>
+            文字x:<input type="text" name="info" id="xTextArr" value="100, 150,200, 250, 300, 350" />
+            文字y:<input type="text" name="info" id="yTextArr" value="90, 170, 250, 330, 410" />
+            文字w:<input type="text" name="info" id="wTextArr" value="30, 30, 20, 20, 20, 50" />
+            图片x:<input type="text" name="info" id="xImgArr" value="100, 150, 200, 250, 300, 350" />
+            图片y:<input type="text" name="info" id="yImgArr" value="120, 200, 280, 360, 440" />
+            其他:<input type="text" name="info" id="other" value="500, 500, 30, 20" />
+        </form>
+        <button id="update">update</button>
+        <p id="mouseLoc"></p>
+        <p id="rectInfo"></p>
+        <script src="./js/croptool.js"></script>
+    </body>
+</html>

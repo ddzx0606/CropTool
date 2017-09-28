@@ -1,0 +1,37 @@
+form,canvas {
+    position: fixed;
+    color: orange;
+    left: 0px;
+    top: 0px;
+}
+body {
+    background: black;
+}
+canvas {
+    position: absolute;
+}
+#magnifyLayer {
+    position: fixed;
+}
+#imageFile{
+    color: orange;
+    position: fixed;
+    top: 40px;
+    left: 300px;
+    margin-right: 20px;
+}
+
+#update {
+    position: fixed;
+    top: 40px;
+    left: 500px;
+}
+p {
+    position: fixed;
+    color: orange;
+    top: 40px;
+    right: 20px;
+}
+#rectInfo {
+    top: 70px;
+}
