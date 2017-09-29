@@ -176,7 +176,7 @@ function text2number(textArr, numberArr) {
 }
 window.onmousemove = function(event) {
     var loc = getCanvasLoc(event, imgLayer);
-    mouseLoc.innerHTML= 'Loc:' + loc.x + '-' + loc.y;
+    mouseLoc.innerHTML= 'Loc:' + parseInt(loc.x) + '-' + parseInt(loc.y);
     magnifyImage(loc.x, loc.y, range, scale, imgCtx, drawCtx, magnifyCtx);
 }
 
